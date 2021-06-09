@@ -85,30 +85,7 @@
             <h1>Valor Actual <%=valorActual %></h1>
            <div style="text-align:center;align-content: center;margin-top: 30px;margin-bottom: 30px">
             
-               <!--<table border="1">
-                <tr>
-                    <td>Año</td>
-                    <td>Valor</td>
-                    
-                </tr>
-                <%
-                   for(int i=0;i<listaAnios.size();i++){
-                        
-                          
-                          out.println("<tr>"+ 
-                                        "<td>" + listaAnios.get(i) + "</td>"+
-                                        "<td>" + listaValoraciones + "</td>"    
-                                     + "</tr>" );
-                          
-                      }
-                   
-                %>
-                
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>-->
+               
                 
                 <% if(listaValoraciones!=null){
                     out.print("<table style='border:2px solid blue'>");
